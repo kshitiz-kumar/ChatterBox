@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".profileFragment"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="20dp"
+        android:padding="15dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/displaypic"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/samplepic"
+            app:civ_border_color="@color/colorPrimary"
+            app:civ_border_width="4dp" />
+
+
+        <TextView
+            android:id="@+id/displayname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/displaypic"
+            android:layout_gravity="right"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/displaypic"
+            android:text="name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/amaranth" />
+
+        <ImageView
+            android:id="@+id/na"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/displayname"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/circle"
+            android:padding="2dp"
+            android:src="@drawable/name" />
+
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/displayphone"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/circle"
+            android:padding="3dp"
+            android:src="@drawable/phone" />
+
+
+        <TextView
+            android:id="@+id/displayphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/displayname"
+
+            android:layout_below="@+id/displayname"
+            android:layout_marginTop="5dp"
+            android:text="phone no."
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/amaranth" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/displayemail"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/circle"
+            android:padding="3dp"
+            android:src="@drawable/email" />
+
+        <TextView
+            android:id="@+id/displayemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/displayphone"
+            android:layout_below="@+id/displayphone"
+            android:layout_marginTop="5dp"
+            android:text="email"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/amaranth" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/displaypic"
+            android:layout_centerVertical="true"
+            android:background="@drawable/thought" />
+
+        <TextView
+            android:id="@+id/thought"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/na"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/amaranth"
+            android:padding="10dp"
+            android:text="thought box"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="341dp"
+            android:layout_height="55dp"
+            android:layout_below="@+id/thought"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/thoughtbox"
+                android:layout_width="269dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="left"
+                android:layout_marginBottom="75dp"
+                android:background="@drawable/rounded_button"
+                android:hint="enter text"
+                android:padding="10dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/changethought"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/thought"
+            android:layout_toRightOf="@+id/thoughtview"
+
+            android:background="@drawable/circle_button"
+            android:contentDescription="TODO"
+            android:elevation="1dp"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/create"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/thoughtview"
+            android:layout_width="269dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/displaypic"
+            android:layout_below="@+id/thought"
+            android:layout_gravity="left"
+            android:background="@drawable/rounded_button"
+            android:padding="10dp"
+            android:text="enter text"
+            android:textSize="15sp"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/setthought"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/thought"
+            android:layout_marginLeft="272dp"
+            android:background="@drawable/circle_button"
+            android:contentDescription="TODO"
+            android:elevation="1dp"
+            android:padding="9dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/send"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="320dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/chatter">
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:fontFamily="@font/amaranth"
+            android:text="logout"
+
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+</LinearLayout>

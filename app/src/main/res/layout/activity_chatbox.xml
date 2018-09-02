@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".chatbox">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:id="@+id/chatboxback"
+            android:background="@color/colorPrimary"
+            android:layout_height="match_parent"
+            android:src="@drawable/back"
+            android:onClick="back"
+            android:scaleType="centerCrop"
+            android:padding="25dp"
+            android:layout_weight="1"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:id="@+id/friendpic"
+            android:src="@drawable/sampleprofilepic"
+            android:layout_margin="5dp"
+            android:layout_height="match_parent"
+            android:maxWidth="1000dp"
+            android:layout_weight="1.5"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@color/white"/>
+
+        <TextView
+            android:id="@+id/reciever"
+            android:layout_width="wrap_content"
+            android:text="ABC"
+            android:textSize="19sp"
+            android:gravity="center|left"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:minWidth="220dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/messagelist"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="3dp"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:layout_weight="8"
+        android:transcriptMode="alwaysScroll">
+    </ListView>
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:scrollbars="vertical"
+        android:elevation="1dp">
+        <EditText
+            android:id="@+id/messagesend"
+            android:layout_width="290dp"
+            android:hint="Type a message"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="3dp"
+            android:textColor="#000000"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:minHeight="45dp"
+            android:textSize="17sp"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:id="@+id/sendmessage"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:onClick="sendmessage"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:elevation="1dp"
+            android:scaleType="centerCrop"
+            android:padding="12dp"
+            android:src="@drawable/send"
+            android:background="@drawable/circle_button"
+            android:contentDescription="TODO" />
+    </LinearLayout>
+</LinearLayout>
