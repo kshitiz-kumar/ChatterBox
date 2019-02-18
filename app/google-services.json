@@ -8,6 +8,50 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:240047967846:android:1c4484d2bc96bdb2",
+        "android_client_info": {
+          "package_name": "com.example.kshitiz.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240047967846-ptbin41s4b9uv8mm4vvqitd17up8ml00.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kshitiz.test",
+            "certificate_hash": "c42752a4ca60c4d73422267905a3bd8bb494ba77"
+          }
+        },
+        {
+          "client_id": "240047967846-9qduigiu6q1hjttp4ug4ovvddq2l1f1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARVxSNWvMZuuiExh-NIkE_F5yURKx4p_U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240047967846-9qduigiu6q1hjttp4ug4ovvddq2l1f1e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:240047967846:android:830577b2114d50b3",
         "android_client_info": {
           "package_name": "com.kkumar.chatterbox"
@@ -20,6 +64,22 @@
           "android_info": {
             "package_name": "com.kkumar.chatterbox",
             "certificate_hash": "77792c603413d8e201c3f2b0907e7368e71cb4a8"
+          }
+        },
+        {
+          "client_id": "240047967846-l5d1dipscgmdm5aepbo2bofprcv0tgep.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kkumar.chatterbox",
+            "certificate_hash": "c42752a4ca60c4d73422267905a3bd8bb494ba77"
+          }
+        },
+        {
+          "client_id": "240047967846-69cuedm2pr5j3raqu3reacvkvmepinjh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kkumar.chatterbox",
+            "certificate_hash": "20038d9ef54b9444ec71143eaade7090020f5be9"
           }
         },
         {
