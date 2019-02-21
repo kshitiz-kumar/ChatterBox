@@ -27,7 +27,6 @@ public class userInfo extends AppCompatActivity {
         setContentView(R.layout.activity_userinfo);
 
         name=(EditText)findViewById(R.id.name);
-        phone=(EditText)findViewById(R.id.phone);
         mAuth =FirebaseAuth.getInstance();
     }
 

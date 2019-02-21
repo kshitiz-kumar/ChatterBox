@@ -23,4 +23,5 @@
     <color name="windowBackground">#FFFFFF</color>
     <color name="navigationBarColor">#000000</color>
     <color name="colorAccenttab">#c8e8ff</color>
+    <color name="black">#000000</color>
 </resources>
