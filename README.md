@@ -11,3 +11,12 @@ of a listview that shows the list of all the added contacts.The messaging is don
 chatbox. Here the user can send message to the other end .First the messages are stored in common node made for the 
 communication,then it is populated in the Chatbox of the respective user using the Firebase adapter that handles much 
 of the functionality by itself.
+
+<img src="https://github.com/kshitiz-kumar/ChatterBox/blob/master/1.png" alt="alt text" width="200" height="300">
+<img src="https://github.com/kshitiz-kumar/ChatterBox/blob/master/2.png" alt="alt text" width="200" height="300">
+<img src="https://github.com/kshitiz-kumar/ChatterBox/blob/master/3.png" alt="alt text" width="200" height="300">
+<img src="https://github.com/kshitiz-kumar/ChatterBox/blob/master/4.png" alt="alt text" width="200" height="300">
+<img src="https://github.com/kshitiz-kumar/ChatterBox/blob/master/5.png" alt="alt text" width="200" height="300">
+<img src="https://github.com/kshitiz-kumar/ChatterBox/blob/master/6.png" alt="alt text" width="200" height="300">
+<img src="https://github.com/kshitiz-kumar/ChatterBox/blob/master/7.png" alt="alt text" width="200" height="300">
+<img src="https://github.com/kshitiz-kumar/ChatterBox/blob/master/Login.png" alt="alt text" width="200" height="300">
