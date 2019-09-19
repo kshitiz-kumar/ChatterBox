@@ -12,11 +12,22 @@ chatbox. Here the user can send message to the other end .First the messages are
 communication,then it is populated in the Chatbox of the respective user using the Firebase adapter that handles much 
 of the functionality by itself.
 
-<img src="https://github.com/kshitiz-kumar/ChatterBox/blob/master/1.png" alt="alt text" width="200" height="300">
-<img src="https://github.com/kshitiz-kumar/ChatterBox/blob/master/2.png" alt="alt text" width="200" height="300">
-<img src="https://github.com/kshitiz-kumar/ChatterBox/blob/master/3.png" alt="alt text" width="200" height="300">
-<img src="https://github.com/kshitiz-kumar/ChatterBox/blob/master/4.png" alt="alt text" width="200" height="300">
-<img src="https://github.com/kshitiz-kumar/ChatterBox/blob/master/5.png" alt="alt text" width="200" height="300">
-<img src="https://github.com/kshitiz-kumar/ChatterBox/blob/master/6.png" alt="alt text" width="200" height="300">
-<img src="https://github.com/kshitiz-kumar/ChatterBox/blob/master/7.png" alt="alt text" width="200" height="300">
-<img src="https://github.com/kshitiz-kumar/ChatterBox/blob/master/Login.png" alt="alt text" width="200" height="300">
+
+Register Screen            |  Photo Upload
+:-------------------------:|:-------------------------:
+<img src="https://github.com/kshitiz-kumar/ChatterBox/blob/master/1.png" alt="alt text" width="200" height="300">  |  <img src="https://github.com/kshitiz-kumar/ChatterBox/blob/master/2.png" alt="alt text" width="200" height="300">
+
+
+Photo Uploaded        |  Main Screen
+:-------------------------:|:-------------------------:
+<img src="https://github.com/kshitiz-kumar/ChatterBox/blob/master/3.png" alt="alt text" width="200" height="300">  |  <img src="https://github.com/kshitiz-kumar/ChatterBox/blob/master/4.png" alt="alt text" width="200" height="300">
+
+Chat Box      |  Contacts Added
+:-------------------------:|:-------------------------:
+<img src="https://github.com/kshitiz-kumar/ChatterBox/blob/master/5.png" alt="alt text" width="200" height="300">  |  <img src="https://github.com/kshitiz-kumar/ChatterBox/blob/master/6.png" alt="alt text" width="200" height="300">
+
+Chat Tab      |  Login Screen
+:-------------------------:|:-------------------------:
+<img src="https://github.com/kshitiz-kumar/ChatterBox/blob/master/7.png" alt="alt text" width="200" height="300">  |  <img src="https://github.com/kshitiz-kumar/ChatterBox/blob/master/Login.png" alt="alt text" width="200" height="300">
+
+
